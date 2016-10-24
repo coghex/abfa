@@ -1,0 +1,130 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Bind	lib/texture.c	/^void Texture2D::Bind() const {$/;"	f	class:Texture2D
+CC	makefile	/^CC=g++$/;"	m
+Clear	lib/rm.c	/^void ResourceManager::Clear(){$/;"	f	class:ResourceManager
+Color	lib/go.h	/^		glm::vec3 Color;$/;"	m	class:GameObject
+Compile	lib/shader.c	/^void Shader::Compile(const GLchar* vertexSource, const GLchar* fragmentSource, const GLchar* geometrySource) {$/;"	f	class:Shader
+Destroyed	lib/go.h	/^		GLboolean Destroyed;$/;"	m	class:GameObject
+Draw	lib/go.c	/^void GameObject::Draw(SpriteRenderer &renderer){$/;"	f	class:GameObject
+Draw	lib/world.c	/^void World::Draw(SpriteRenderer &renderer) {$/;"	f	class:World
+Draw	lib/worldtile.c	/^void WorldTile::Draw(SpriteRenderer &renderer){$/;"	f	class:WorldTile
+Draw	lib/zone.c	/^void Zone::Draw(SpriteRenderer &renderer) {$/;"	f	class:Zone
+DrawSprite	lib/sr.c	/^void SpriteRenderer::DrawSprite(Texture2D &texture, glm::vec2 position, glm::vec2 size, GLfloat rotate, glm::vec3 color){$/;"	f	class:SpriteRenderer
+Filter_Max	lib/texture.h	/^		GLuint Filter_Max;$/;"	m	class:Texture2D
+Filter_Min	lib/texture.h	/^		GLuint Filter_Min;$/;"	m	class:Texture2D
+GAMEOBJECT_H	lib/go.h	2;"	d
+GAME_ACTIVE	lib/game.h	/^	GAME_ACTIVE,$/;"	e	enum:GameState
+GAME_END	lib/game.h	/^	GAME_END$/;"	e	enum:GameState
+GAME_H	lib/game.h	2;"	d
+GAME_MENU	lib/game.h	/^	GAME_MENU,$/;"	e	enum:GameState
+GLEW_STATIC	src/abfa.c	1;"	d	file:
+Game	lib/game.c	/^Game::Game(GLuint width, GLuint height)$/;"	f	class:Game
+Game	lib/game.h	/^class Game$/;"	c
+GameObject	lib/go.c	/^GameObject::GameObject() : Position(0,0), Size(1,1), Velocity(0.0f), Color(1.0f), Rotation(0.0f), Sprite(), IsSolid(false), Destroyed(false) {}$/;"	f	class:GameObject
+GameObject	lib/go.c	/^GameObject::GameObject(glm::vec2 pos, glm::vec2 size, Texture2D sprite, glm::vec3 color, glm::vec2 velocity) : Position(pos), Size(size), Velocity(velocity), Color(color), Rotation(0.0f), Sprite(sprite), IsSolid(false), Destroyed(false) {}$/;"	f	class:GameObject
+GameObject	lib/go.h	/^class GameObject$/;"	c
+GameState	lib/game.h	/^enum GameState {$/;"	g
+Generate	lib/texture.c	/^void Texture2D::Generate(GLuint width, GLuint height, unsigned char* data){$/;"	f	class:Texture2D
+GetShader	lib/rm.c	/^Shader ResourceManager::GetShader(std::string name){$/;"	f	class:ResourceManager
+GetTexture	lib/rm.c	/^Texture2D ResourceManager::GetTexture(std::string name){$/;"	f	class:ResourceManager
+Height	lib/game.h	/^		GLuint Width, Height;$/;"	m	class:Game
+Height	lib/texture.h	/^		GLuint Width, Height;$/;"	m	class:Texture2D
+ID	lib/shader.h	/^		GLuint ID;$/;"	m	class:Shader
+ID	lib/texture.h	/^		GLuint ID;$/;"	m	class:Texture2D
+Image_Format	lib/texture.h	/^		GLuint Image_Format;$/;"	m	class:Texture2D
+Init	lib/game.c	/^void Game::Init()$/;"	f	class:Game
+Internal_Format	lib/texture.h	/^		GLuint Internal_Format;$/;"	m	class:Texture2D
+IsSolid	lib/go.h	/^		GLboolean IsSolid;$/;"	m	class:GameObject
+Keys	lib/game.h	/^		GLboolean Keys[1024];$/;"	m	class:Game
+LDFLAGS	makefile	/^	LDFLAGS=-framework OpenGL -framework GLUT -Wall -Wno-deprecated$/;"	m
+LDFLAGS	makefile	/^	LDFLAGS=-lglfw -lSOIL -lGLEW -lGL -lm -I .\/$/;"	m
+LoadShader	lib/rm.c	/^Shader ResourceManager::LoadShader(const GLchar *vShaderFile, const GLchar *fShaderFile, const GLchar *gShaderFile, std::string name){$/;"	f	class:ResourceManager
+LoadTexture	lib/rm.c	/^Texture2D ResourceManager::LoadTexture(const GLchar *file, GLboolean alpha, std::string name) {$/;"	f	class:ResourceManager
+Passable	lib/worldtile.c	/^GLboolean WorldTile::Passable(){$/;"	f	class:WorldTile
+Position	lib/go.h	/^		glm::vec2 Position, Size, Velocity;$/;"	m	class:GameObject
+ProcessInput	lib/game.c	/^void Game::ProcessInput(GLfloat dt)$/;"	f	class:Game
+RESOURCE_MANAGER_H	lib/rm.h	2;"	d
+Render	lib/game.c	/^void Game::Render()$/;"	f	class:Game
+Renderer	lib/game.c	/^SpriteRenderer *Renderer;$/;"	v
+ResourceManager	lib/rm.h	/^		ResourceManager() {}$/;"	f	class:ResourceManager
+ResourceManager	lib/rm.h	/^class ResourceManager{$/;"	c
+Rotation	lib/go.h	/^		GLfloat Rotation;$/;"	m	class:GameObject
+SCREEN_HEIGHT	src/abfa.c	/^const GLuint SCREEN_HEIGHT = 960;$/;"	v
+SCREEN_WIDTH	src/abfa.c	/^const GLuint SCREEN_WIDTH = 1440;$/;"	v
+SHADER_H	lib/shader.h	2;"	d
+SPRITE_RENDERER_H	lib/sr.h	2;"	d
+SetFloat	lib/shader.c	/^void Shader::SetFloat(const GLchar *name, GLfloat value, GLboolean useShader){$/;"	f	class:Shader
+SetInteger	lib/shader.c	/^void Shader::SetInteger(const GLchar *name, GLint value, GLboolean useShader){$/;"	f	class:Shader
+SetMatrix4	lib/shader.c	/^void Shader::SetMatrix4(const GLchar *name, const glm::mat4 &matrix, GLboolean useShader){$/;"	f	class:Shader
+SetVector2f	lib/shader.c	/^void Shader::SetVector2f(const GLchar *name, GLfloat x, GLfloat y, GLboolean useShader){$/;"	f	class:Shader
+SetVector2f	lib/shader.c	/^void Shader::SetVector2f(const GLchar *name, const glm::vec2 &value, GLboolean useShader){$/;"	f	class:Shader
+SetVector3f	lib/shader.c	/^void Shader::SetVector3f(const GLchar *name, GLfloat x, GLfloat y, GLfloat z, GLboolean useShader){$/;"	f	class:Shader
+SetVector3f	lib/shader.c	/^void Shader::SetVector3f(const GLchar *name, const glm::vec3 &value, GLboolean useShader){$/;"	f	class:Shader
+SetVector4f	lib/shader.c	/^void Shader::SetVector4f(const GLchar *name, GLfloat x, GLfloat y, GLfloat z, GLfloat w, GLboolean useShader){$/;"	f	class:Shader
+SetVector4f	lib/shader.c	/^void Shader::SetVector4f(const GLchar *name, const glm::vec4 &value, GLboolean useShader){$/;"	f	class:Shader
+Shader	lib/shader.h	/^		Shader() { }$/;"	f	class:Shader
+Shader	lib/shader.h	/^class Shader$/;"	c
+Shaders	lib/rm.c	/^std::map<std::string, Shader> ResourceManager::Shaders;$/;"	m	class:ResourceManager	file:
+Shaders	lib/rm.h	/^		static std::map<std::string, Shader> Shaders;$/;"	m	class:ResourceManager
+Size	lib/go.h	/^		glm::vec2 Position, Size, Velocity;$/;"	m	class:GameObject
+Sprite	lib/go.h	/^		Texture2D Sprite;$/;"	m	class:GameObject
+SpriteRenderer	lib/sr.c	/^SpriteRenderer::SpriteRenderer(Shader &shader){$/;"	f	class:SpriteRenderer
+SpriteRenderer	lib/sr.h	/^class SpriteRenderer{$/;"	c
+State	lib/game.h	/^		GameState State;$/;"	m	class:Game
+TEXTURE_H	lib/texture.h	2;"	d
+Texture2D	lib/texture.c	/^Texture2D::Texture2D() : Width(0), Height(0), Internal_Format(GL_RGB), Image_Format(GL_RGB), Wrap_S(GL_REPEAT), Wrap_T(GL_REPEAT), Filter_Min(GL_LINEAR), Filter_Max(GL_LINEAR) {$/;"	f	class:Texture2D
+Texture2D	lib/texture.h	/^class Texture2D$/;"	c
+Textures	lib/rm.c	/^std::map<std::string, Texture2D> ResourceManager::Textures;$/;"	m	class:ResourceManager	file:
+Textures	lib/rm.h	/^		static std::map<std::string, Texture2D> Textures;$/;"	m	class:ResourceManager
+Tiles	lib/zone.h	/^		std::vector<WorldTile> Tiles;$/;"	m	class:Zone
+UNAME	makefile	/^UNAME := $(shell uname)$/;"	m
+Update	lib/game.c	/^void Game::Update(GLfloat dt)$/;"	f	class:Game
+Use	lib/shader.c	/^Shader &Shader::Use()$/;"	f	class:Shader
+Velocity	lib/go.h	/^		glm::vec2 Position, Size, Velocity;$/;"	m	class:GameObject
+WORLDTILE_H	lib/worldtile.h	2;"	d
+WORLD_H	lib/world.h	2;"	d
+Width	lib/game.h	/^		GLuint Width, Height;$/;"	m	class:Game
+Width	lib/texture.h	/^		GLuint Width, Height;$/;"	m	class:Texture2D
+World	lib/world.c	/^World::World() : mapw(90), maph(60) {}$/;"	f	class:World
+World	lib/world.c	/^World::World(int w, int h) : mapw(w), maph(h) {}$/;"	f	class:World
+World	lib/world.h	/^class World {$/;"	c
+WorldTile	lib/worldtile.c	/^WorldTile::WorldTile() : position(0,0), type(0){}$/;"	f	class:WorldTile
+WorldTile	lib/worldtile.c	/^WorldTile::WorldTile(glm::vec2 pos, int t) : position(pos), type(t) {}$/;"	f	class:WorldTile
+WorldTile	lib/worldtile.h	/^class WorldTile$/;"	c
+Wrap_S	lib/texture.h	/^		GLuint Wrap_S;$/;"	m	class:Texture2D
+Wrap_T	lib/texture.h	/^		GLuint Wrap_T;$/;"	m	class:Texture2D
+ZONE_H	lib/zone.h	2;"	d
+Zone	lib/zone.c	/^Zone::Zone() : type(0), size(10), position(0,0) {}$/;"	f	class:Zone
+Zone	lib/zone.c	/^Zone::Zone(int t, int s, glm::vec2 pos) : type(t), size(s), position(pos) {}$/;"	f	class:Zone
+Zone	lib/zone.h	/^class Zone$/;"	c
+Zones	lib/world.h	/^		std::vector<Zone> Zones;$/;"	m	class:World
+checkCompileErrors	lib/shader.c	/^void Shader::checkCompileErrors(GLuint object, std::string type){$/;"	f	class:Shader
+init	lib/world.c	/^void World::init(int w, int h) {$/;"	f	class:World
+init	lib/worldtile.c	/^void WorldTile::init(glm::vec2 pos, int t){$/;"	f	class:WorldTile
+init	lib/zone.c	/^void Zone::init(int t, int s, glm::vec2 pos){$/;"	f	class:Zone
+initRenderData	lib/sr.c	/^void SpriteRenderer::initRenderData(){$/;"	f	class:SpriteRenderer
+key_callback	src/abfa.c	/^void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode){$/;"	f
+loadShaderFromFile	lib/rm.c	/^Shader ResourceManager::loadShaderFromFile(const GLchar *vShaderFile, const GLchar *fShaderFile, const GLchar *gShaderFile){$/;"	f	class:ResourceManager
+loadTextureFromFile	lib/rm.c	/^Texture2D ResourceManager::loadTextureFromFile(const GLchar *file, GLboolean alpha){$/;"	f	class:ResourceManager
+main	src/abfa.c	/^int main(int argc, char *argv[]){$/;"	f
+maph	lib/world.h	/^		int maph;$/;"	m	class:World
+mapw	lib/world.h	/^		int mapw;$/;"	m	class:World
+nzones	lib/world.h	/^		int nzones;$/;"	m	class:World
+passable	lib/worldtile.h	/^		GLboolean passable;$/;"	m	class:WorldTile
+position	lib/worldtile.h	/^		glm::vec2 position;$/;"	m	class:WorldTile
+position	lib/zone.h	/^		glm::vec2 position;$/;"	m	class:Zone
+quadVAO	lib/sr.h	/^		GLuint quadVAO;$/;"	m	class:SpriteRenderer
+shader	lib/sr.h	/^		Shader shader;$/;"	m	class:SpriteRenderer
+size	lib/zone.h	/^		int size, type;$/;"	m	class:Zone
+string	lib/rm.c	/^std::map<std::string, Shader> ResourceManager::Shaders;$/;"	m	class:std	file:
+string	lib/rm.c	/^std::map<std::string, Texture2D> ResourceManager::Textures;$/;"	m	class:std	file:
+tile	lib/worldtile.h	/^		GameObject tile;$/;"	m	class:WorldTile
+type	lib/worldtile.h	/^		int type;$/;"	m	class:WorldTile
+type	lib/zone.h	/^		int size, type;$/;"	m	class:Zone
+~Game	lib/game.c	/^Game::~Game()$/;"	f	class:Game
+~SpriteRenderer	lib/sr.c	/^SpriteRenderer::~SpriteRenderer(){$/;"	f	class:SpriteRenderer
