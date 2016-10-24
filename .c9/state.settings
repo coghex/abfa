@@ -1,0 +1,492 @@
+{
+    "console": {
+        "@expanded": false,
+        "@height": 399,
+        "@maximized": "false",
+        "json()": {
+            "nodes": [
+                {
+                    "type": "pane",
+                    "name": "pane1",
+                    "nodes": [
+                        {
+                            "type": "tab",
+                            "name": "tab0",
+                            "path": "",
+                            "className": [
+                                "tab0"
+                            ],
+                            "document": {
+                                "changed": false,
+                                "meta": {
+                                    "timestamp": 1477342181364
+                                },
+                                "filter": true,
+                                "title": "./abfa - \"fatty@fatty:~/ABFA/test\"",
+                                "tooltip": "./abfa - \"fatty@fatty:~/ABFA/test\"",
+                                "terminal": {
+                                    "id": "devel_497",
+                                    "cwd": "",
+                                    "width": 0,
+                                    "height": 0
+                                }
+                            },
+                            "editorType": "terminal",
+                            "active": true
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab1",
+                            "path": "",
+                            "className": [],
+                            "document": {
+                                "title": "Immediate",
+                                "changed": false,
+                                "meta": {
+                                    "timestamp": 1477342181375
+                                },
+                                "filter": true
+                            },
+                            "editorType": "immediate",
+                            "active": false
+                        }
+                    ],
+                    "skin": "editor_tab",
+                    "skinset": "default",
+                    "meta": {
+                        "accessList": [
+                            "tab0",
+                            "tab1"
+                        ]
+                    }
+                },
+                {
+                    "type": "pane",
+                    "name": "pane2",
+                    "nodes": [
+                        {
+                            "type": "tab",
+                            "name": "preview-https://localhost:8080",
+                            "path": "",
+                            "className": [
+                                "preview-https---localhost-8080"
+                            ],
+                            "document": {
+                                "changed": false,
+                                "meta": {
+                                    "timestamp": 1477320680070
+                                },
+                                "filter": true,
+                                "title": "[P] https://localhost:8080",
+                                "preview": {
+                                    "path": "https://localhost:8080",
+                                    "previewer": "preview.browser"
+                                }
+                            },
+                            "editorType": "preview",
+                            "active": true
+                        }
+                    ],
+                    "width": "50%",
+                    "skin": "editor_tab",
+                    "skinset": "default",
+                    "meta": {
+                        "accessList": [
+                            "preview-https://localhost:8080"
+                        ]
+                    }
+                }
+            ],
+            "type": "hsplitbox"
+        }
+    },
+    "experiments": {
+        "@@enabled": true,
+        "@autosave": 0,
+        "@flat-dark": true,
+        "@git": 1,
+        "@go_completion": 0,
+        "@plugin-manager": 1,
+        "@plugins": 0,
+        "@sdk": 0,
+        "@test": 0
+    },
+    "ext": {
+        "counters": {
+            "@ace": 1,
+            "@acestatus": 1,
+            "@datagrid": 1,
+            "@divider": 5,
+            "@document": 7,
+            "@form": 5,
+            "@menu": 5,
+            "@menuitem": 13,
+            "@pane": 2,
+            "@postmessage": 1,
+            "@preferences": 1,
+            "@preview": 1,
+            "@session": 6,
+            "@tab": 22,
+            "@undoManager": 7
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@scope": "selection",
+        "@wholeword": "false"
+    },
+    "menus": {
+        "@minimized": "false"
+    },
+    "nak": {
+        "@installed": true
+    },
+    "panecycle": {
+        "json()": [
+            "tab0",
+            "tab19",
+            "tab2"
+        ]
+    },
+    "panels": {
+        "@active-left": "none",
+        "@active-right": "none",
+        "@width-left": 126,
+        "commands.panel": {
+            "@enabled": "true",
+            "@name": "commands.panel"
+        },
+        "debugger": {
+            "@enabled": "true",
+            "@name": "debugger"
+        },
+        "navigate": {
+            "@enabled": "true",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "true",
+            "@name": "outline"
+        },
+        "scm": {
+            "@enabled": "true",
+            "@name": "scm"
+        },
+        "tree": {
+            "@enabled": "true",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "@showfs": true,
+        "expanded": {
+            "json()": [
+                "/",
+                "/src",
+                "/lib"
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "tabs": {
+        "json()": {
+            "focus": "tab0",
+            "nodes": [
+                {
+                    "type": "pane",
+                    "name": "pane0",
+                    "nodes": [
+                        {
+                            "type": "tab",
+                            "name": "tab15",
+                            "path": "/lib/game.h",
+                            "className": [
+                                "tab15"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "game.h",
+                                "tooltip": "/lib/game.h",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 98.75,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 21,
+                                            "column": 17
+                                        },
+                                        "end": {
+                                            "row": 21,
+                                            "column": 17
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": {
+                                        "row": 5,
+                                        "state": "start",
+                                        "mode": "ace/mode/c_cpp"
+                                    }
+                                },
+                                "hash": "28c29f7a680dccacb765f8120783784faee4ae63",
+                                "meta": {
+                                    "timestamp": 1477336616241
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab19",
+                            "path": "/lib/game.c",
+                            "className": [
+                                "tab19"
+                            ],
+                            "document": {
+                                "changed": false,
+                                "meta": {
+                                    "timestamp": 1477336769758
+                                },
+                                "filter": true,
+                                "title": "game.c",
+                                "tooltip": "/lib/game.c",
+                                "ace": {}
+                            },
+                            "editorType": "ace",
+                            "active": true
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab14",
+                            "path": "/lib/wtile.h",
+                            "className": [
+                                "tab14"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "wtile.h",
+                                "tooltip": "/lib/wtile.h",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 0,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 12,
+                                            "column": 17
+                                        },
+                                        "end": {
+                                            "row": 12,
+                                            "column": 17
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "08b2b9d19679ba2471272d774c813f7ecd9cfe77",
+                                "meta": {
+                                    "timestamp": 1477330597423
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab16",
+                            "path": "/lib/wtile.c",
+                            "className": [
+                                "tab16"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "wtile.c",
+                                "tooltip": "/lib/wtile.c",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 0,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 8,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "row": 8,
+                                            "column": 4
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": {
+                                        "row": 12,
+                                        "mode": "ace/mode/c_cpp"
+                                    }
+                                },
+                                "hash": "875f1919271f30a529926f784fddd1a61bec61ef",
+                                "meta": {
+                                    "timestamp": 1477335119705
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab21",
+                            "path": "/src/abfa.c",
+                            "className": [
+                                "tab21"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "abfa.c",
+                                "tooltip": "/src/abfa.c",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 394.25,
+                                    "scrollleft": 0.25,
+                                    "selection": {
+                                        "start": {
+                                            "row": 6,
+                                            "column": 37
+                                        },
+                                        "end": {
+                                            "row": 6,
+                                            "column": 37
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": {
+                                        "row": 43,
+                                        "state": "start",
+                                        "mode": "ace/mode/c_cpp"
+                                    }
+                                },
+                                "hash": "f544948aca7c4022d0b3230b3034e74691a23441",
+                                "meta": {
+                                    "timestamp": 1477303483919
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        }
+                    ],
+                    "skin": "editor_tab",
+                    "skinset": "default",
+                    "meta": {
+                        "accessList": [
+                            "tab19",
+                            "tab15",
+                            "tab14",
+                            "tab16",
+                            "tab21"
+                        ]
+                    }
+                },
+                {
+                    "type": "pane",
+                    "name": "pane1",
+                    "nodes": [
+                        {
+                            "type": "tab",
+                            "name": "tab0",
+                            "path": "",
+                            "className": [
+                                "tab0",
+                                "focus"
+                            ],
+                            "document": {
+                                "changed": false,
+                                "meta": {
+                                    "timestamp": 1477326798593
+                                },
+                                "filter": true,
+                                "title": "bash - \"fatty@fatty:~/ABFA/test\"",
+                                "tooltip": "bash - \"fatty@fatty:~/ABFA/test\"",
+                                "terminal": {
+                                    "id": "devel_674",
+                                    "cwd": "",
+                                    "width": 611,
+                                    "height": 110
+                                }
+                            },
+                            "editorType": "terminal",
+                            "active": true
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab2",
+                            "path": "",
+                            "className": [
+                                "tab2"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "bash - \"fatty@fatty:~/ABFA/test\"",
+                                "tooltip": "bash - \"fatty@fatty:~/ABFA/test\"",
+                                "terminal": {
+                                    "id": "devel_121",
+                                    "cwd": "",
+                                    "width": 611,
+                                    "height": 110,
+                                    "scrollTop": 32866
+                                },
+                                "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                                "meta": {
+                                    "timestamp": 1477320695872
+                                },
+                                "changed": false
+                            },
+                            "editorType": "terminal",
+                            "active": false
+                        }
+                    ],
+                    "height": "22.895622895622896%",
+                    "skin": "editor_tab",
+                    "skinset": "default",
+                    "meta": {
+                        "accessList": [
+                            "tab0",
+                            "tab2"
+                        ]
+                    }
+                }
+            ],
+            "type": "vsplitbox"
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/src/abfa.c"
+        ]
+    }
+}

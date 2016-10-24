@@ -3,6 +3,8 @@
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+#include <stdlib.h>
+#include "lib/sr.h"
 
 enum GameState {
 	GAME_ACTIVE,
@@ -16,6 +18,9 @@ class Game
 		GameState State;
 		GLboolean Keys[1024];
 		GLuint Width, Height;
+		Texture2D worldfieldstex, worldplainstex, worldcragstex, worldbeachtex, worldseatex, worldcoasttex, worldimptex;
+		int x[25], y[25];
+		
 		Game(GLuint width, GLuint height);
 		~Game();
 		void Init();
